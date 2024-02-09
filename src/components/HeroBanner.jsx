@@ -11,7 +11,7 @@ function Header() {
           </div>
           <div className="hero_banner_content">
             <div className="container">
-              <h1 class="hero_banner_title">
+              <h1 className="hero_banner_title">
                 Wallien — The only thing between a woman and the water
               </h1>
             </div>
