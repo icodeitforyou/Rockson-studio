@@ -82,3 +82,231 @@ header.header_wrapper {
   color: #fff;
   font-weight: 400;
 }
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+html {
+  font-size: 1vw;
+}
+.header_logo {
+  height: auto;
+  max-width: 10.41rem;
+  width: 100%;
+}
+.header_logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.header_grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul.header_nav_grid {
+  display: flex;
+  align-items: center;
+  gap: 2.60rem;
+  list-style: none;
+}
+li.header_nav_items a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+}
+.container {
+  padding: 0 2.34rem;
+  margin: 0 auto;
+}
+header.header_wrapper {
+  padding: 1.56rem 0;
+}
+.hero_banner_image {
+  max-width: 100%;
+  position: relative;
+  padding-bottom: 36.45rem;
+  width: 100%;
+}
+.hero_banner_image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero_banner_grid {
+  position: relative;
+}
+.hero_banner_content {
+  position: absolute;
+  top: 3.12rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero_banner_title {
+  max-width: 46.87rem;
+  font-size: 3.95rem;
+  line-height: 1;
+  color: #fff;
+  font-weight: 400;
+}
+section.hero_banner_wrapper {
+  overflow: hidden;
+}
+.about_case_grid {
+  display: flex;
+  align-items: flex-start;
+  gap: 8.90rem;
+  justify-content: space-between;
+}
+
+h2.about_case_heading {
+  margin-bottom: 1.04rem;
+  font-size: 2.08rem;
+  line-height: 105%;
+}
+
+section.about_case_wrapper {
+  padding: 2.34rem 0;
+}
+
+.about_case_left {
+  max-width: 28.64rem;
+  width: 100%;
+}
+
+.about_case_right {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.60rem;
+  max-width: 33.62rem;
+  width: 100%;
+}
+
+.about_case_services {
+  max-width: 50%;
+  width: 100%;
+}
+
+.about_case_solution {
+  max-width: 50%;
+  width: 100%;
+}
+
+h3.about_case_right_heading {
+  opacity: .65;
+  color: #000;
+  font-size: 1.04rem;
+  line-height: 159%;
+  margin-bottom: 0.5rem;
+}
+
+ul.about_case_list {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  margin-bottom: 0.36rem;
+  font-size: 1.19rem;
+  line-height: 1.82rem;
+}
+
+.about_case_subtext,.about_case_subtext * {
+  font-size: 1.04rem;
+  line-height: 175%;
+  color: #171717;
+}
+.about_case_btn {
+  width: 9.89rem;
+  height: 2.60rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 0.83rem;
+  border: 0.05rem solid #000;
+  color: #000;
+  border-radius: 4.16rem;
+  margin-top: 2.08rem;
+}
+.video_grid video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.video_grid {
+  position: relative;
+  padding-bottom: 36.97rem;
+}
+.cases_text_image_grid_cont {
+  display: flex;
+  gap: 1.04rem;
+}
+.cases_text_image_grid_left {
+  max-width: calc(40% - 1.04rem / 2);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.04rem;
+}
+
+.cases_text_image_grid_right {
+  max-width: calc(60% - 1.04rem / 2);
+  width: 100%;
+}
+
+section.cases_text_image_grid {padding: 2.34rem 0;}
+.grid_left_image {
+  flex-grow: 1;
+  position: relative;
+}
+.grid_left_image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid_left_subtext {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+  text-align: justify;
+}
+.cases_text_image_grid_right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.04rem;
+}
+.grid_right_imag1 {
+  position: relative;
+  padding-bottom: 120%;
+}
+
+.grid_right_imag1 img {position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;}
+
+.grid_right_imag2 {
+  position: relative;
+  padding-bottom: 70%;
+}
+.grid_right_imag2 img {position: absolute;top: 0;left: 0;width: 100%;height: 100%;object-fit: cover;}
